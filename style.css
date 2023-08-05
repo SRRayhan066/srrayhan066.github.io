@@ -1220,7 +1220,9 @@ form input, form textarea{
     .images:hover .rayhan {
         left: 35%;
     }
-
+    .images{
+        height: 75%;
+    }
     .images img{
         bottom: 20px;
         left: 45%;
