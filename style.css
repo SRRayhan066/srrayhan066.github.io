@@ -553,7 +553,7 @@ span{
     padding: 10px 15px;
     color: #fff;
     border-radius: 15px;
-    height: calc(100vh/2.10);
+    height: calc(100vh/2);
     width: 40vh;
 }
 
@@ -563,7 +563,7 @@ span{
 }
 
 .single_project .info{
-    height: calc(100vh/4);
+    height: calc(100vh/4.25);
 }
 
 .single_project h4{
