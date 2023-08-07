@@ -1315,10 +1315,12 @@ form input, form textarea{
 }
 
 @media (max-width:415px) {
+    nav{
+        width: 91%;
+    }
     .homeContainer .details{
         margin-top: 29%;
     }
-
     .images{
         width: 50%;
     }
@@ -1327,11 +1329,9 @@ form input, form textarea{
         left: 40%;
         height: 70%;
     }
-
     .images:hover .shape{
         bottom: 80px;
     }
-    
     .images:hover .rayhan{
         left: 22%;
     }
@@ -1344,22 +1344,18 @@ form input, form textarea{
         width: 40vh;
         grid-template-rows: 2fr 3fr;
     }
-
     .personalInfo{
         grid-template-columns: 1fr;
     }
-
     .infoSection{
-        width: 40vh;
+        width: 37vh;
     }
-
     .imageSection img{
         width: 50%;
     }
     .about_contents .imageSection::after{
         width: 50%;
     }
-
     .skillsContainer{
         grid-template-columns: repeat(1,1fr);
     }
@@ -1394,8 +1390,24 @@ form input, form textarea{
     .child_project{
         margin-left: 0vh;
     }
-
+    .projects{
+        width: 75%;
+    }
+    .single_detail{
+        width: 35vh;
+    }
     .single_project{
         height: calc(100vh/2.5);
+        width: 29vh;
+    }
+
+    .row{
+        flex-direction: column;
+        width: 90%;
+        margin-left: 2%;
+    }
+
+    .copyright{
+        width: 95%;
     }
 }
