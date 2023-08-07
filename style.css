@@ -1313,3 +1313,89 @@ form input, form textarea{
         padding: 0px 1%;
     }
 }
+
+@media (max-width:415px) {
+    .homeContainer .details{
+        margin-top: 29%;
+    }
+
+    .images{
+        width: 50%;
+    }
+    .images img {
+        bottom: 70px;
+        left: 40%;
+        height: 70%;
+    }
+
+    .images:hover .shape{
+        bottom: 80px;
+    }
+    
+    .images:hover .rayhan{
+        left: 22%;
+    }
+
+    .about_contents .imageSection {
+        margin-left: 0%;
+    }
+
+    .about_container .about_contents{
+        width: 40vh;
+        grid-template-rows: 2fr 3fr;
+    }
+
+    .personalInfo{
+        grid-template-columns: 1fr;
+    }
+
+    .infoSection{
+        width: 40vh;
+    }
+
+    .imageSection img{
+        width: 50%;
+    }
+    .about_contents .imageSection::after{
+        width: 50%;
+    }
+
+    .skillsContainer{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .child_achievement{
+        flex-basis: 0%;
+    }
+    .child_achievement img{
+        height: 0px;
+        width: 0px;
+    }
+
+    .child_achievement2 {
+        display: flex;
+        flex-basis: 100%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .detailsInfo h2{
+        font-size: 25px;
+    }
+    .detailsInfo p{
+        font-size: 19px;
+    }
+
+    .project-filter li{
+        font-size: 0.7rem;
+    }
+
+    .child_project{
+        margin-left: 0vh;
+    }
+
+    .single_project{
+        height: calc(100vh/2.5);
+    }
+}
